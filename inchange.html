@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <h3>蝶恋花</h3>
+    <input type="button" id="btn" value="16">
+    <input type="button" id="btn1" value="18">
+    <input type="button" id="btn2" value="26">
+    <div id="content">
+        <p>泪湿罗衣脂粉满</p>
+        <p>四叠阳关，唱到千千遍</p>
+        <p>人道山长水又断，潇潇然宇文孤馆</p>
+    </div>
+</div>
+</body>
+</html>
+<script>
+    var oBtn=document.getElementById("btn");
+    var oBtn1=document.getElementById("btn1");
+    var oBtn2=document.getElementById("btn2");
+    var oContent=document.getElementById("content");
+    oBtn.onclick=function () {
+        oContent.style.fontSize="16px";
+    }
+    oBtn1.onclick=function () {
+        oContent.style.fontSize="18px";
+    }
+    oBtn2.onclick=function () {
+        oContent.style.fontSize="26px";
+    }
+</script>
